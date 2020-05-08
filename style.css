@@ -75,6 +75,10 @@ a:focus{
   color: var(--side-panel-color);
 }
 
+.hobbies{
+  margin-top: auto!important;
+}
+
 #side-panel i{
   border-radius: 50%;
   border: 1px solid var(--paragraph-color);

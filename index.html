@@ -10,34 +10,40 @@
   <body>
     <div class="container-fluid d-flex"> <!-- The whole CV -->
       <div class="row">
-        <div class="col-lg-4" id="side-panel"> <!-- SIDE PANEL -->
+        <div class="col-lg-4 flex-column" id="side-panel"> <!-- SIDE PANEL -->
           <div class="row justify-content-center"> <!-- Photo -->
             <img src="puppy.jpg" class="rounded-circle" alt="Une phot de moi... ou pas" width="80%">
           </div>
-          <div class="row justify-content-center side-panel-title"> <!-- Contact -->
-            <h3 class="text-uppercase pt-1">contact</h3>
+          <div class="row flex-column">
+            <div class="row justify-content-center side-panel-title"> <!-- Contact title -->
+              <h3 class="text-uppercase pt-1">contact</h3>
+            </div>
+            <div class="row flex-column p-5"> <!-- Contact content -->
+              <p><span class="side-panel-contact-heading">Adresse</span><br/>Mont-de-marsan, France</p>
+              <p><span class="side-panel-contact-heading">Téléphone</span><br/><a href="tel:+33652016595">+33 6 52 01 65 95</a></p>
+              <p><span class="side-panel-contact-heading">Email</span><br/><a href="mailto:alexandre.gasior@gmail.com">alexandre.gasior@gmail.com</a></p>
+              <p><span class="side-panel-contact-heading">Site web</span><br/><a href="https://github.com/Nev-aA">https://github.com/Nev-aA</a></p>
+              <p><span class="side-panel-contact-heading">Skype</span><br/>Alexandre Gasior</p>
+            </div>
           </div>
-          <div class="row flex-column p-5"> <!-- Contact content -->
-            <p><span class="side-panel-contact-heading">Adresse</span><br/>Mont-de-marsan, France</p>
-            <p><span class="side-panel-contact-heading">Téléphone</span><br/><a href="tel:+33652016595">+33 6 52 01 65 95</a></p>
-            <p><span class="side-panel-contact-heading">Email</span><br/><a href="mailto:alexandre.gasior@gmail.com">alexandre.gasior@gmail.com</a></p>
-            <p><span class="side-panel-contact-heading">Site web</span><br/><a href="https://github.com/Nev-aA">https://github.com/Nev-aA</a></p>
-            <p><span class="side-panel-contact-heading">Skype</span><br/>Alexandre Gasior</p>
+          <div class="row flex-column">
+            <div class="row justify-content-center side-panel-title"> <!-- About me title -->
+              <h3 class="text-uppercase pt-1">à propos de moi</h3>
+            </div>
+            <div class="row text-justify p-5"> <!-- About me content -->
+              <p>J'ai fait mes études en électrotechnique suivi d'une formation militaire avionique (maintenance des systèmes électriques et électroniques sur aéronefs) mais je n'aimais pas ça et ce n'est pas un secteur dans lequel je souhaitais continuer.
+              <br>Par le passé, j'avais déjà appris quelques notions en développement web de manière autodidacte puis au travers d'un bootcamp et j'ai beaucoup apprécié l'expérience et finalement me voilà dans la formation dispensée par OpenClassrooms.</p>
+            </div>
           </div>
-          <div class="row justify-content-center side-panel-title"> <!-- About me -->
-            <h3 class="text-uppercase pt-1">à propos de moi</h3>
-          </div>
-          <div class="row text-justify p-5"> <!-- About me content -->
-            <p>J'ai fait mes études en électrotechnique suivi d'une formation militaire avionique (maintenance des systèmes électriques et électroniques sur aéronefs) mais je n'aimais pas ça et ce n'est pas un secteur dans lequel je souhaitais continuer.
-            <br>Par le passé, j'avais déjà appris quelques notions en développement web de manière autodidacte puis au travers d'un bootcamp et j'ai beaucoup apprécié l'expérience et finalement me voilà dans la formation dispensée par OpenClassrooms.</p>
-          </div>
-          <div class="row justify-content-center side-panel-title"> <!-- Hobbies -->
-            <h3 class="text-uppercase pt-1">loisirs</h3>
-          </div>
-          <div class="row justify-content-around p-5"> <!-- Hobbies content -->
-            <i class="fas fa-dog fa-3x"></i>
-            <i class="fas fa-gamepad fa-3x"></i>
-            <i class="fas fa-dumbbell fa-3x"></i>
+          <div class="row flex-column">
+            <div class="row justify-content-center side-panel-title"> <!-- Hobbies title -->
+              <h3 class="text-uppercase pt-1">loisirs</h3>
+            </div>
+            <div class="row justify-content-around p-5"> <!-- Hobbies content -->
+              <i class="fas fa-dog fa-3x"></i>
+              <i class="fas fa-gamepad fa-3x"></i>
+              <i class="fas fa-dumbbell fa-3x"></i>
+            </div>
           </div>
         </div>
         <div class="col-lg-8 p-5" id="main-panel"> <!-- MAIN PANEL -->

@@ -124,6 +124,10 @@ h2::after{
   font-weight: bold;
 }
 
+#recommendations p{
+  margin: 0;
+}
+
 /* MEDIA QUERIES */
 @media screen and (max-width: 640px) {
   h1{

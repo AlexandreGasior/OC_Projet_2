@@ -72,6 +72,14 @@ a:focus{
   color: var(--side-panel-color);
 }
 
+address{
+  margin: 0;
+}
+
+.side-panel-contact-heading{
+  margin: 5px 0 0 0;
+}
+
 #side-panel i{
   border-radius: 50%;
   border: 1px solid var(--paragraph-color);

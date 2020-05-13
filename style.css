@@ -1,4 +1,4 @@
-/* VARIABLES */
+/* ROOT */
 :root{
   --side-panel-color: #2a2d43;
   --main-panel-color: #414361;
@@ -56,6 +56,7 @@ a:focus{
 /* SIDE PANEL */
 #side-panel{
   background-color: var(--side-panel-color);
+  position: relative;
 }
 
 #side-panel img{
@@ -75,8 +76,13 @@ a:focus{
 .side-panel-contact-heading{
   margin: 5px 0 0 0;
 }
+#hobbies{
+  position: absolute;
+  bottom: 0;
+  width: 100%;
+}
 
-#side-panel i{
+#hobbies i{
   border-radius: 50%;
   border: 1px solid var(--paragraph-color);
   padding: 5px;
@@ -133,6 +139,12 @@ h2::after{
 }
 
 /* MEDIA QUERIES */
+@media screen and (max-width: 992px) {
+  #about{
+    margin-bottom: 225px;
+  }
+}
+
 @media screen and (max-width: 640px) {
   h1{
     font-size: 2.4em;

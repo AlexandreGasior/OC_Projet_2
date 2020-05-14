@@ -9,10 +9,6 @@
 }
 
 /* GENERAL */
-/* div, section{
-  border: 1px solid black;
-} */
-
 body{
   color: var(--paragraph-color);
 }
@@ -77,6 +73,11 @@ a:focus{
 .side-panel-contact-heading{
   margin: 5px 0 0 0;
 }
+
+#about p{
+  margin: 0;
+}
+
 #hobbies{
   position: absolute;
   bottom: 0;

@@ -125,7 +125,7 @@ h2::after{
 }
 
 .main-panel-title{
-  border-bottom: 2px solid var(--secondary-title-color)
+  border-bottom: 2px solid var(--secondary-title-color);
 }
 
 .main-panel-title i{
@@ -139,11 +139,12 @@ h2::after{
 }
 
 .fa-dot-circle{
-    margin-right: 8px;
+  margin-right: 8px;
+  font-size: 1.33em;
 }
 
 .fa-circle{
-    margin-right: 15px;
+  margin-right: 15px;
 }
 
 .main-panel-date{

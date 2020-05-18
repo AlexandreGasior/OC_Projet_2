@@ -120,7 +120,7 @@ h2::after{
   top: 35px;
   left: 2px;
   height: 1px;
-  width: 90px;
+  width: 85px;
   background-color: var(--secondary-title-color);
 }
 
@@ -145,6 +145,10 @@ h2::after{
 
 .fa-circle{
   margin-right: 15px;
+}
+
+#main-panel article{
+  margin-top: 15px;
 }
 
 .main-panel-date{
@@ -180,14 +184,14 @@ h2::after{
 
 @media screen and (max-width: 576px) {
   h1{
-    font-size: 2.4em;
+    font-size: 2.2em;
   }
 
   h3{
-    font-size: 1.25rem;
+    font-size: 1.15rem;
   }
 
   h4{
-    font-size: 1.15rem;
+    font-size: 1.05rem;
   }
 }

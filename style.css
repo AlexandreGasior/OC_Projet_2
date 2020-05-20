@@ -15,15 +15,25 @@ body{
 }
 
 h1{
+  padding-top: 3rem;
+}
+
+h1, span.h1-responsive{
   font-size: 3.25em;
 }
 
-h1, h3, h4{
+h1, span.h1-responsive, h3, h4{
   text-transform: uppercase;
 }
 
-h1, h3{
+h1, span.h1-responsive, h3{
   color: var(--main-title-color);
+}
+
+h2, span.h2-responsive{
+  font-size: 2rem;
+  font-weight: 500;
+  line-height: 1.2;
 }
 
 h3, h4{
@@ -56,6 +66,10 @@ a:focus{
   position: relative;
 }
 
+span.h1-responsive, span.h2-responsive{
+  display: none;
+}
+
 #side-panel img{
   margin: 30px 0;
   max-width: 200px;
@@ -63,12 +77,13 @@ a:focus{
   border: 3px solid var(--image-border-color);
 }
 
-.side-panel-title{
+#side-panel h3{
+  color: var(--side-panel-color);
   background-color: var(--secondary-title-color);
 }
 
-.side-panel-title h3{
-  color: var(--side-panel-color);
+#contact div.row:not(:first-child){
+  padding: 3rem;
 }
 
 .side-panel-contact-heading{
@@ -110,11 +125,14 @@ a:focus{
 }
 
 h2{
-  position: relative;
   margin-bottom: 60px;
 }
 
-h2::after{
+h2, span.h2-responsive{
+  position: relative;
+}
+
+h2::after, span.h2-responsive::after{
   content: "";
   position: absolute;
   top: 35px;
@@ -165,12 +183,12 @@ h2::after{
 
 /* MEDIA QUERIES */
 @media screen and (max-width: 992px) {
-  #main-panel{
-    order: 1;
+  h1, h2{
+    display: none;
   }
 
-  #side-panel{
-    order: 2;
+  span.h1-responsive, span.h2-responsive{
+    display: block;
   }
 
   #about{
@@ -183,7 +201,7 @@ h2::after{
 }
 
 @media screen and (max-width: 576px) {
-  h1{
+  span.h1-responsive{
     font-size: 2.2em;
   }
 
@@ -193,5 +211,9 @@ h2::after{
 
   h4{
     font-size: 1.05rem;
+  }
+
+  #contact div.row:not(:first-child){
+    padding: 2rem;
   }
 }

@@ -20,7 +20,7 @@
   <body>
     <div class="container-fluid d-flex"> <!-- The whole CV -->
       <div class="row">
-        <section class="col-lg-8 p-5 order-2" id="main-panel"> <!-- ==== MAIN PANEL ==== -->
+        <section class="col-lg-8 px-5 order-2" id="main-panel"> <!-- ==== MAIN PANEL ==== -->
           <header class="row flex-column mt-3 mb-5"> <!-- CV title -->
             <h1><span class="first-name">Alexandre</span> Gasior</h1>
             <h2>Développeur web freelance</h2>
@@ -120,36 +120,34 @@
           </section>
         </section>
         <aside class="col-lg-4 flex-column order-1" id="side-panel"> <!-- ==== SIDE PANEL ==== -->
-          <div class="row">
-            <section class="col-lg-12 col-md-4 col-sm-12 d-flex justify-content-center align-items-center"> <!-- Photo -->
-              <img src="me.jpg" class="rounded-circle" alt="Alexandre Gasior, développeur web en HTML5 et CSS3">
-            </section>
-            <section class="col-lg-12 col-md-8 col-sm-12 flex-column p-3" id="contact"> <!-- CONTACT -->
-              <div class="row justify-content-center side-panel-title"> <!-- Contact title -->
-                <h3 class="text-uppercase pt-1">contact</h3>
+          <section class="row flex-column p-3" id="contact"> <!-- CONTACT -->
+            <div class="row">
+              <div class="col-lg-12 col-sm-6 col-12 pl-5">
+                <span class="h1-responsive"><span class="first-name">Alexandre</span> Gasior</span>
+                <span class="h2-responsive">Développeur web freelance</span>
               </div>
-              <div class="row flex-column p-5"> <!-- Contact content -->
-                <p class="side-panel-contact-heading">Adresse</p><address>Mont-de-marsan, France</address>
-                <p class="side-panel-contact-heading">Téléphone</p><p><a href="tel:+33652016595">+33 6 52 01 65 95</a></p>
-                <p class="side-panel-contact-heading">Email</p><p><a href="mailto:alexandre.gasior@gmail.com">alexandre.gasior@gmail.com</a></p>
-                <p class="side-panel-contact-heading">Site web</p><p><a href="https://github.com/Nev-aA">https://github.com/Nev-aA</a></p>
-                <p class="side-panel-contact-heading">Skype</p><p>Alexandre Gasior</p>
+              <div class="col-lg-12 col-sm-6 col-12 d-flex justify-content-center">
+                <img src="me.jpg" class="rounded-circle" alt="Alexandre Gasior, développeur web en HTML5 et CSS3"> <!-- Photo -->
               </div>
-            </section>
-          </div>
-          <section class="row flex-column p-3" id="about"> <!-- ABOUT ME -->
-            <div class="row justify-content-center side-panel-title"> <!-- About me title -->
-              <h3 class="text-uppercase pt-1">à propos de moi</h3>
             </div>
+            <h3 class="row justify-content-center text-uppercase py-1">contact</h3> <!-- Contact title -->
+            <div class="row"> <!-- Contact content -->
+              <div class="col-lg-12 col-sm-6 col-12"><p class="side-panel-contact-heading">Adresse</p><address>Mont-de-marsan, France</address></div>
+              <div class="col-lg-12 col-sm-6 col-12"><p class="side-panel-contact-heading">Téléphone</p><p><a href="tel:+33652016595">+33 6 52 01 65 95</a></p></div>
+              <div class="col-lg-12 col-sm-6 col-12"><p class="side-panel-contact-heading">Email</p><p><a href="mailto:alexandre.gasior@gmail.com">alexandre.gasior@gmail.com</a></p></div>
+              <div class="col-lg-12 col-sm-6 col-12"><p class="side-panel-contact-heading">Site web</p><p><a href="https://github.com/Nev-aA">https://github.com/Nev-aA</a></p></div>
+              <div class="col-lg-12 col-sm-6 col-12"><p class="side-panel-contact-heading">Skype</p><p>Alexandre Gasior</p></div>
+            </div>
+          </section>
+          <section class="row flex-column p-3" id="about"> <!-- ABOUT ME -->
+            <h3 class="row justify-content-center text-uppercase py-1">à propos de moi</h3> <!-- About me title -->
             <article class="row text-justify p-5"> <!-- About me content -->
               <p>J'ai fait mes études en électrotechnique suivi d'une formation militaire avionique (maintenance des systèmes électriques et électroniques sur aéronefs) mais je n'aimais pas ça et ce n'est pas un secteur dans lequel je souhaitais continuer.</p>
               <p>Par le passé, j'avais déjà appris quelques notions en développement web de manière autodidacte puis au travers d'un bootcamp et j'ai beaucoup apprécié l'expérience et finalement me voilà dans la formation dispensée par OpenClassrooms.</p>
             </article>
           </section>
           <section class="row flex-column p-3" id="hobbies"> <!-- HOBBIESS -->
-            <div class="row justify-content-center side-panel-title"> <!-- Hobbies title -->
-              <h3 class="text-uppercase pt-1">loisirs</h3>
-            </div>
+            <h3 class="row justify-content-center text-uppercase py-1">loisirs</h3> <!-- Hobbies title -->
             <div class="row justify-content-around p-5"> <!-- Hobbies content -->
               <i class="fas fa-dog fa-3x"></i>
               <i class="fas fa-gamepad fa-3x"></i>
